@@ -5,7 +5,7 @@ from ray import serve
 
 from transformers import pipeline
 
-@serve.deployement(num_replicas=2, ray_actor_options={"num_cpus": 0, "num_gpus": 0.2})
+@serve.deployment(num_replicas=2, ray_actor_options={"num_cpus": 0, "num_gpus": 0.2})
 class Translator:
     def __init__(self):
         # Load model
@@ -23,3 +23,5 @@ class Translator:
     async def __call__(self, http_request: Request) -> str:
         english_text: str = await http_request.json()
         return self.translate(english_text)
+    
+translator_app = Translator.bind()
