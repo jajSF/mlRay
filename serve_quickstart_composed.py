@@ -10,7 +10,7 @@ from transformers import pipeline
 class Translator:
     def __init__(self):
         # Load model
-        self.model = pipeline("trnslation_en_to_fr", model = "t5-small")
+        self.model = pipeline("translation_en_to_fr", model = "t5-small")
 
     def translate(self, text: str) -> str:
         # Run inference
