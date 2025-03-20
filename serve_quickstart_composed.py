@@ -17,7 +17,7 @@ class Translator:
         model_output = self.model(text)
 
         # Post-process output to return only the translation text
-        translation = model_output[0]["translation_text"]
+        translation = model_output[0]["translation_text"]   
 
         return translation
     
