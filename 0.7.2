@@ -1,0 +1,245 @@
+Requirement already satisfied: ray[llm,serve] in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (2.43.0)
+Collecting vllm
+  Downloading vllm-0.8.2.tar.gz (6.5 MB)
+     ---------------------------------------- 6.5/6.5 MB 638.0 kB/s eta 0:00:00
+  Installing build dependencies: started
+  Installing build dependencies: still running...
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: click>=7.0 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from ray[llm,serve]) (8.1.8)
+Requirement already satisfied: filelock in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from ray[llm,serve]) (3.17.0)
+Requirement already satisfied: jsonschema in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from ray[llm,serve]) (4.23.0)
+Requirement already satisfied: msgpack<2.0.0,>=1.0.0 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from ray[llm,serve]) (1.1.0)
+Requirement already satisfied: packaging in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from ray[llm,serve]) (24.2)
+Requirement already satisfied: protobuf!=3.19.5,>=3.15.3 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from ray[llm,serve]) (5.29.3)
+Requirement already satisfied: pyyaml in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from ray[llm,serve]) (6.0.2)
+Requirement already satisfied: aiosignal in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from ray[llm,serve]) (1.3.2)
+Requirement already satisfied: frozenlist in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from ray[llm,serve]) (1.5.0)
+Requirement already satisfied: requests in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from ray[llm,serve]) (2.32.3)
+Requirement already satisfied: opencensus in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from ray[llm,serve]) (0.11.4)
+Requirement already satisfied: colorful in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from ray[llm,serve]) (0.5.6)
+Requirement already satisfied: watchfiles in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from ray[llm,serve]) (1.0.4)
+Requirement already satisfied: py-spy>=0.2.0 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from ray[llm,serve]) (0.4.0)
+Requirement already satisfied: grpcio>=1.42.0 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from ray[llm,serve]) (1.71.0)
+Requirement already satisfied: fastapi in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from ray[llm,serve]) (0.115.11)
+Requirement already satisfied: uvicorn[standard] in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from ray[llm,serve]) (0.34.0)
+Requirement already satisfied: virtualenv!=20.21.1,>=20.0.24 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from ray[llm,serve]) (20.29.3)
+Requirement already satisfied: prometheus_client>=0.7.1 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from ray[llm,serve]) (0.21.1)
+Requirement already satisfied: starlette in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from ray[llm,serve]) (0.46.1)
+Requirement already satisfied: pydantic!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.*,!=2.4.*,<3 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from ray[llm,serve]) (2.10.6)
+Requirement already satisfied: aiohttp_cors in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from ray[llm,serve]) (0.7.0)
+Requirement already satisfied: aiohttp>=3.7 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from ray[llm,serve]) (3.11.13)
+Requirement already satisfied: smart_open in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from ray[llm,serve]) (7.1.0)
+Collecting jsonref>=1.1.0
+  Downloading jsonref-1.1.0-py3-none-any.whl (9.4 kB)
+Collecting pyarrow>=9.0.0
+  Downloading pyarrow-19.0.1-cp311-cp311-win_amd64.whl (25.3 MB)
+     -------------------------------------- 25.3/25.3 MB 927.7 kB/s eta 0:00:00
+Collecting async_timeout
+  Downloading async_timeout-5.0.1-py3-none-any.whl (6.2 kB)
+Requirement already satisfied: fsspec in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from ray[llm,serve]) (2025.3.0)
+Collecting pandas>=1.3
+  Using cached pandas-2.2.3-cp311-cp311-win_amd64.whl (11.6 MB)
+Requirement already satisfied: numpy>=1.20 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from ray[llm,serve]) (2.2.3)
+Collecting boto3
+  Downloading boto3-1.37.20-py3-none-any.whl (139 kB)
+     -------------------------------------- 139.6/139.6 kB 4.2 MB/s eta 0:00:00
+Collecting asyncache>=0.3.1
+  Downloading asyncache-0.3.1-py3-none-any.whl (3.7 kB)
+Requirement already satisfied: cachetools in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from vllm) (5.5.2)
+Collecting psutil
+  Using cached psutil-7.0.0-cp37-abi3-win_amd64.whl (244 kB)
+Collecting sentencepiece
+  Downloading sentencepiece-0.2.0-cp311-cp311-win_amd64.whl (991 kB)
+     -------------------------------------- 991.5/991.5 kB 2.9 MB/s eta 0:00:00
+Collecting numpy>=1.20
+  Using cached numpy-1.26.4-cp311-cp311-win_amd64.whl (15.8 MB)
+Requirement already satisfied: tqdm in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from vllm) (4.67.1)
+Collecting blake3
+  Downloading blake3-1.0.4-cp311-cp311-win_amd64.whl (212 kB)
+     -------------------------------------- 212.6/212.6 kB 2.2 MB/s eta 0:00:00
+Collecting py-cpuinfo
+  Downloading py_cpuinfo-9.0.0-py3-none-any.whl (22 kB)
+Requirement already satisfied: transformers>=4.48.2 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from vllm) (4.49.0)
+Requirement already satisfied: tokenizers>=0.19.1 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from vllm) (0.21.0)
+Collecting openai>=1.52.0
+  Downloading openai-1.68.2-py3-none-any.whl (606 kB)
+     -------------------------------------- 606.1/606.1 kB 2.5 MB/s eta 0:00:00
+Requirement already satisfied: pillow in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from vllm) (11.0.0)
+Collecting prometheus-fastapi-instrumentator>=7.0.0
+  Downloading prometheus_fastapi_instrumentator-7.1.0-py3-none-any.whl (19 kB)
+Collecting tiktoken>=0.6.0
+  Using cached tiktoken-0.9.0-cp311-cp311-win_amd64.whl (893 kB)
+Collecting lm-format-enforcer<0.11,>=0.10.11
+  Downloading lm_format_enforcer-0.10.11-py3-none-any.whl (44 kB)
+     ---------------------------------------- 44.2/44.2 kB ? eta 0:00:00
+Collecting outlines==0.1.11
+  Downloading outlines-0.1.11-py3-none-any.whl (87 kB)
+     ---------------------------------------- 87.6/87.6 kB 1.6 MB/s eta 0:00:00
+Collecting lark==1.2.2
+  Downloading lark-1.2.2-py3-none-any.whl (111 kB)
+     -------------------------------------- 111.0/111.0 kB 3.3 MB/s eta 0:00:00
+Requirement already satisfied: typing_extensions>=4.10 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from vllm) (4.12.2)
+Collecting partial-json-parser
+  Downloading partial_json_parser-0.2.1.1.post5-py3-none-any.whl (10 kB)
+Collecting pyzmq
+  Downloading pyzmq-26.3.0-cp311-cp311-win_amd64.whl (647 kB)
+     -------------------------------------- 648.0/648.0 kB 2.6 MB/s eta 0:00:00
+Collecting msgspec
+  Downloading msgspec-0.19.0-cp311-cp311-win_amd64.whl (186 kB)
+     -------------------------------------- 186.2/186.2 kB 2.3 MB/s eta 0:00:00
+Collecting gguf==0.10.0
+  Downloading gguf-0.10.0-py3-none-any.whl (71 kB)
+     -------------------------------------- 71.6/71.6 kB 557.7 kB/s eta 0:00:00
+Collecting importlib_metadata
+  Downloading importlib_metadata-8.6.1-py3-none-any.whl (26 kB)
+Collecting mistral_common[opencv]>=1.5.4
+  Downloading mistral_common-1.5.4-py3-none-any.whl (6.5 MB)
+     ---------------------------------------- 6.5/6.5 MB 1.3 MB/s eta 0:00:00
+Collecting einops
+  Downloading einops-0.8.1-py3-none-any.whl (64 kB)
+     ---------------------------------------- 64.4/64.4 kB ? eta 0:00:00
+Collecting compressed-tensors==0.9.2
+  Downloading compressed_tensors-0.9.2-py3-none-any.whl (97 kB)
+     ---------------------------------------- 97.9/97.9 kB 1.9 MB/s eta 0:00:00
+Collecting depyf==0.18.0
+  Downloading depyf-0.18.0-py3-none-any.whl (38 kB)
+Collecting cloudpickle
+  Using cached cloudpickle-3.1.1-py3-none-any.whl (20 kB)
+Collecting python-json-logger
+  Downloading python_json_logger-3.3.0-py3-none-any.whl (15 kB)
+Collecting scipy
+  Using cached scipy-1.15.2-cp311-cp311-win_amd64.whl (41.2 MB)
+Collecting ninja
+  Using cached ninja-1.11.1.4-py3-none-win_amd64.whl (296 kB)
+Requirement already satisfied: torch>=1.7.0 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from compressed-tensors==0.9.2->vllm) (2.6.0+cu118)
+Collecting astor
+  Using cached astor-0.8.1-py2.py3-none-any.whl (27 kB)
+Collecting dill
+  Downloading dill-0.3.9-py3-none-any.whl (119 kB)
+     -------------------------------------- 119.4/119.4 kB 2.3 MB/s eta 0:00:00
+Collecting interegular
+  Downloading interegular-0.3.3-py37-none-any.whl (23 kB)
+Requirement already satisfied: jinja2 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from outlines==0.1.11->vllm) (3.1.6)
+Collecting nest_asyncio
+  Using cached nest_asyncio-1.6.0-py3-none-any.whl (5.2 kB)
+Collecting diskcache
+  Downloading diskcache-5.6.3-py3-none-any.whl (45 kB)
+     ---------------------------------------- 45.5/45.5 kB 2.4 MB/s eta 0:00:00
+Requirement already satisfied: referencing in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from outlines==0.1.11->vllm) (0.36.2)
+Collecting pycountry
+  Downloading pycountry-24.6.1-py3-none-any.whl (6.3 MB)
+     ---------------------------------------- 6.3/6.3 MB 866.8 kB/s eta 0:00:00
+Collecting airportsdata
+  Downloading airportsdata-20250224-py3-none-any.whl (913 kB)
+     -------------------------------------- 913.7/913.7 kB 1.3 MB/s eta 0:00:00
+Collecting outlines_core==0.1.26
+  Downloading outlines_core-0.1.26-cp311-cp311-win_amd64.whl (243 kB)
+     -------------------------------------- 243.5/243.5 kB 1.1 MB/s eta 0:00:00
+Requirement already satisfied: aiohappyeyeballs>=2.3.0 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from aiohttp>=3.7->ray[llm,serve]) (2.6.1)
+Requirement already satisfied: attrs>=17.3.0 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from aiohttp>=3.7->ray[llm,serve]) (25.2.0)
+Requirement already satisfied: multidict<7.0,>=4.5 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from aiohttp>=3.7->ray[llm,serve]) (6.1.0)
+Requirement already satisfied: propcache>=0.2.0 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from aiohttp>=3.7->ray[llm,serve]) (0.3.0)
+Requirement already satisfied: yarl<2.0,>=1.17.0 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from aiohttp>=3.7->ray[llm,serve]) (1.18.3)
+Requirement already satisfied: colorama in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from click>=7.0->ray[llm,serve]) (0.4.6)
+Collecting fastapi-cli[standard]>=0.0.5
+  Downloading fastapi_cli-0.0.7-py3-none-any.whl (10 kB)
+Collecting httpx>=0.23.0
+  Using cached httpx-0.28.1-py3-none-any.whl (73 kB)
+Collecting python-multipart>=0.0.18
+  Downloading python_multipart-0.0.20-py3-none-any.whl (24 kB)
+Collecting email-validator>=2.0.0
+  Downloading email_validator-2.2.0-py3-none-any.whl (33 kB)
+Collecting opencv-python-headless>=4.0.0
+  Downloading opencv_python_headless-4.11.0.86-cp37-abi3-win_amd64.whl (39.4 MB)
+     ---------------------------------------- 39.4/39.4 MB 1.3 MB/s eta 0:00:00
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from jsonschema->ray[llm,serve]) (2024.10.1)
+Requirement already satisfied: rpds-py>=0.7.1 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from jsonschema->ray[llm,serve]) (0.23.1)
+Requirement already satisfied: anyio<5,>=3.5.0 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from openai>=1.52.0->vllm) (4.8.0)
+Collecting distro<2,>=1.7.0
+  Using cached distro-1.9.0-py3-none-any.whl (20 kB)
+Collecting jiter<1,>=0.4.0
+  Downloading jiter-0.9.0-cp311-cp311-win_amd64.whl (210 kB)
+     -------------------------------------- 210.1/210.1 kB 2.6 MB/s eta 0:00:00
+Requirement already satisfied: sniffio in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from openai>=1.52.0->vllm) (1.3.1)
+Collecting python-dateutil>=2.8.2
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Collecting pytz>=2020.1
+  Downloading pytz-2025.2-py2.py3-none-any.whl (509 kB)
+     -------------------------------------- 509.2/509.2 kB 1.5 MB/s eta 0:00:00
+Collecting tzdata>=2022.7
+  Using cached tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+Requirement already satisfied: annotated-types>=0.6.0 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from pydantic!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.*,!=2.4.*,<3->ray[llm,serve]) (0.7.0)
+Requirement already satisfied: pydantic-core==2.27.2 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from pydantic!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.*,!=2.4.*,<3->ray[llm,serve]) (2.27.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from requests->ray[llm,serve]) (3.4.1)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from requests->ray[llm,serve]) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from requests->ray[llm,serve]) (2.3.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from requests->ray[llm,serve]) (2025.1.31)
+Requirement already satisfied: regex>=2022.1.18 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from tiktoken>=0.6.0->vllm) (2024.11.6)
+Requirement already satisfied: huggingface-hub<1.0,>=0.16.4 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from tokenizers>=0.19.1->vllm) (0.29.3)
+Requirement already satisfied: safetensors>=0.4.1 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from transformers>=4.48.2->vllm) (0.5.3)
+Requirement already satisfied: h11>=0.8 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from uvicorn[standard]->ray[llm,serve]) (0.14.0)
+Requirement already satisfied: httptools>=0.6.3 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from uvicorn[standard]->ray[llm,serve]) (0.6.4)
+Requirement already satisfied: python-dotenv>=0.13 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from uvicorn[standard]->ray[llm,serve]) (1.0.1)
+Requirement already satisfied: websockets>=10.4 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from uvicorn[standard]->ray[llm,serve]) (15.0.1)
+Requirement already satisfied: distlib<1,>=0.3.7 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from virtualenv!=20.21.1,>=20.0.24->ray[llm,serve]) (0.3.9)
+Requirement already satisfied: platformdirs<5,>=3.9.1 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from virtualenv!=20.21.1,>=20.0.24->ray[llm,serve]) (4.3.6)
+Collecting botocore<1.38.0,>=1.37.20
+  Downloading botocore-1.37.20-py3-none-any.whl (13.4 MB)
+     ---------------------------------------- 13.4/13.4 MB 2.0 MB/s eta 0:00:00
+Collecting jmespath<2.0.0,>=0.7.1
+  Downloading jmespath-1.0.1-py3-none-any.whl (20 kB)
+Collecting s3transfer<0.12.0,>=0.11.0
+  Downloading s3transfer-0.11.4-py3-none-any.whl (84 kB)
+     ---------------------------------------- 84.4/84.4 kB 1.6 MB/s eta 0:00:00
+Collecting zipp>=3.20
+  Using cached zipp-3.21.0-py3-none-any.whl (9.6 kB)
+Requirement already satisfied: opencensus-context>=0.1.3 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from opencensus->ray[llm,serve]) (0.1.3)
+Requirement already satisfied: six~=1.16 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from opencensus->ray[llm,serve]) (1.17.0)
+Requirement already satisfied: google-api-core<3.0.0,>=1.0.0 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from opencensus->ray[llm,serve]) (2.24.2)
+Requirement already satisfied: wrapt in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from smart_open->ray[llm,serve]) (1.17.2)
+Collecting dnspython>=2.0.0
+  Downloading dnspython-2.7.0-py3-none-any.whl (313 kB)
+     -------------------------------------- 313.6/313.6 kB 2.4 MB/s eta 0:00:00
+Collecting typer>=0.12.3
+  Downloading typer-0.15.2-py3-none-any.whl (45 kB)
+     ---------------------------------------- 45.1/45.1 kB 1.1 MB/s eta 0:00:00
+Collecting rich-toolkit>=0.11.1
+  Downloading rich_toolkit-0.13.2-py3-none-any.whl (13 kB)
+Requirement already satisfied: googleapis-common-protos<2.0.0,>=1.56.2 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from google-api-core<3.0.0,>=1.0.0->opencensus->ray[llm,serve]) (1.69.1)
+Requirement already satisfied: proto-plus<2.0.0,>=1.22.3 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from google-api-core<3.0.0,>=1.0.0->opencensus->ray[llm,serve]) (1.26.1)
+Requirement already satisfied: google-auth<3.0.0,>=2.14.1 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from google-api-core<3.0.0,>=1.0.0->opencensus->ray[llm,serve]) (2.38.0)
+Collecting httpcore==1.*
+  Using cached httpcore-1.0.7-py3-none-any.whl (78 kB)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from jinja2->outlines==0.1.11->vllm) (3.0.2)
+Requirement already satisfied: networkx in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from torch>=1.7.0->compressed-tensors==0.9.2->vllm) (3.4.2)
+Requirement already satisfied: sympy==1.13.1 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from torch>=1.7.0->compressed-tensors==0.9.2->vllm) (1.13.1)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from sympy==1.13.1->torch>=1.7.0->compressed-tensors==0.9.2->vllm) (1.3.0)
+Requirement already satisfied: pyasn1-modules>=0.2.1 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from google-auth<3.0.0,>=2.14.1->google-api-core<3.0.0,>=1.0.0->opencensus->ray[llm,serve]) (0.4.1)
+Requirement already satisfied: rsa<5,>=3.1.4 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from google-auth<3.0.0,>=2.14.1->google-api-core<3.0.0,>=1.0.0->opencensus->ray[llm,serve]) (4.9)
+Collecting rich>=13.7.1
+  Using cached rich-13.9.4-py3-none-any.whl (242 kB)
+Collecting shellingham>=1.3.0
+  Using cached shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Requirement already satisfied: pyasn1<0.7.0,>=0.4.6 in c:\users\jahez abraham johny\dev\mlray\venv\lib\site-packages (from pyasn1-modules>=0.2.1->google-auth<3.0.0,>=2.14.1->google-api-core<3.0.0,>=1.0.0->opencensus->ray[llm,serve]) (0.6.1)
+Collecting markdown-it-py>=2.2.0
+  Using cached markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+Collecting pygments<3.0.0,>=2.13.0
+  Using cached pygments-2.19.1-py3-none-any.whl (1.2 MB)
+Collecting mdurl~=0.1
+  Using cached mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Building wheels for collected packages: vllm
+  Building wheel for vllm (pyproject.toml): started
+  Building wheel for vllm (pyproject.toml): finished with status 'done'
+  Created wheel for vllm: filename=vllm-0.8.2-py3-none-any.whl size=2552088 sha256=94c4bb6b5b3a05bcbeaca9ec2816cf394bb78409978fbaeefce1e5c16a45c7b9
+  Stored in directory: c:\users\jahez abraham johny\appdata\local\pip\cache\wheels\eb\1a\75\2cee7f8d3ece6fa678b49b067ede488a4af27bc1af83def912
+Successfully built vllm
+Installing collected packages: sentencepiece, pytz, py-cpuinfo, blake3, zipp, tzdata, shellingham, pyzmq, python-multipart, python-json-logger, python-dateutil, pygments, pycountry, pyarrow, psutil, partial-json-parser, numpy, ninja, nest_asyncio, msgspec, mdurl, lark, jsonref, jmespath, jiter, interegular, httpcore, einops, dnspython, distro, diskcache, dill, cloudpickle, asyncache, async_timeout, astor, airportsdata, tiktoken, scipy, pandas, opencv-python-headless, markdown-it-py, importlib_metadata, httpx, gguf, email-validator, depyf, botocore, s3transfer, rich, prometheus-fastapi-instrumentator, openai, lm-format-enforcer, typer, rich-toolkit, outlines_core, mistral_common, boto3, outlines, fastapi-cli, compressed-tensors, vllm
+  Attempting uninstall: numpy
+    Found existing installation: numpy 2.2.3
+    Uninstalling numpy-2.2.3:
+      Successfully uninstalled numpy-2.2.3
+Successfully installed airportsdata-20250224 astor-0.8.1 async_timeout-5.0.1 asyncache-0.3.1 blake3-1.0.4 boto3-1.37.20 botocore-1.37.20 cloudpickle-3.1.1 compressed-tensors-0.9.2 depyf-0.18.0 dill-0.3.9 diskcache-5.6.3 distro-1.9.0 dnspython-2.7.0 einops-0.8.1 email-validator-2.2.0 fastapi-cli-0.0.7 gguf-0.10.0 httpcore-1.0.7 httpx-0.28.1 importlib_metadata-8.6.1 interegular-0.3.3 jiter-0.9.0 jmespath-1.0.1 jsonref-1.1.0 lark-1.2.2 lm-format-enforcer-0.10.11 markdown-it-py-3.0.0 mdurl-0.1.2 mistral_common-1.5.4 msgspec-0.19.0 nest_asyncio-1.6.0 ninja-1.11.1.4 numpy-1.26.4 openai-1.68.2 opencv-python-headless-4.11.0.86 outlines-0.1.11 outlines_core-0.1.26 pandas-2.2.3 partial-json-parser-0.2.1.1.post5 prometheus-fastapi-instrumentator-7.1.0 psutil-7.0.0 py-cpuinfo-9.0.0 pyarrow-19.0.1 pycountry-24.6.1 pygments-2.19.1 python-dateutil-2.9.0.post0 python-json-logger-3.3.0 python-multipart-0.0.20 pytz-2025.2 pyzmq-26.3.0 rich-13.9.4 rich-toolkit-0.13.2 s3transfer-0.11.4 scipy-1.15.2 sentencepiece-0.2.0 shellingham-1.5.4 tiktoken-0.9.0 typer-0.15.2 tzdata-2025.2 vllm-0.8.2 zipp-3.21.0
